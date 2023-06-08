@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/personnelListFragment">
+
+    <fragment
+        android:id="@+id/personnelListFragment"
+        android:name="com.example.personelkayit.fragment.PersonnelListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_personnel_list" >
+        <action
+            android:id="@+id/action_personnelListFragment_to_editPersonnelFragment"
+            app:destination="@id/editPersonnelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.personelkayit.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_editPersonnelFragment"
+            app:destination="@id/editPersonnelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPersonnelFragment"
+        android:name="com.example.personelkayit.fragment.EditPersonnelFragment"
+        android:label="fragment_edit_personnel"
+        tools:layout="@layout/fragment_edit_personnel" >
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="userEmail"
+            app:argType="string" />
+        <argument
+            android:name="telephone"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>

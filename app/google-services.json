@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960837250760",
+    "project_id": "personelkayit-be6eb",
+    "storage_bucket": "personelkayit-be6eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960837250760:android:38d22d497dac33e414fffd",
+        "android_client_info": {
+          "package_name": "com.example.personelkayit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960837250760-23cd3rfjhngooegnshdagnquagh9qkdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNs19tU9UBjVJzcqZ1eZV3HDgBIAqtFYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960837250760-23cd3rfjhngooegnshdagnquagh9qkdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
